@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5-Apr-2018, 5:39:44 PM
+    Author     : jbber
+*/
+
+/*
+Plate color references
+red : rgb(194, 81, 63);
+blue: rgb(54, 88, 149);
+yellow: rgb(228, 201, 0);
+green: rgb(28, 112, 88);
+white: rgb(235, 235, 235);;
+*/
+
+.textfield-error{
+    -fx-background-color: rgba(249, 0, 0, 0.26);
+}
+
+.content{
+    -fx-background-color: #e0e0e0;
+}
+
+/* Menu */
+
+.menu__vbox{
+    -fx-background-color: #424242;
+}
+.menu__button{
+    -fx-alignment: CENTER_LEFT;
+    -fx-text-fill: rgb(175, 175, 175);
+    -fx-background-radius: 0;
+}
+.menu__button:hover{
+    -fx-text-fill: white;
+}
+.menu__button:focused{
+    -fx-background-color: transparent, transparent, transparent;
+} 
+.menu__indicator-red{
+    -fx-background-color: rgb(194, 81, 63);
+}
+.menu__indicator-blue{
+    -fx-background-color: rgb(54, 88, 149);
+}
+.menu__indicator-yellow{
+    -fx-background-color: rgb(228, 201, 0);
+}
+.menu__indicator-green{
+    -fx-background-color: rgb(28, 112, 88);
+}
+.menu__indicator-white{
+    -fx-background-color: rgb(235, 235, 235);
+}
+
+/* Barbell Section */
+
+.barbell__gridpane{
+    -fx-background-color: #e0e0e0;
+}
+
+/* Profile Section */
+
+.profile__hbox{
+    -fx-background-color: #e0e0e0;
+}
+
+.profile__vbox--summary{
+    -fx-background-color: #e0e0e0;
+}
+
+.profile__textflow--summary{
+    -fx-font-smoothing-type: lcd;  
+}
+
+.profile__button--submit, .profile__button--edit{
+    -fx-border-color: rgba(66,66,66,0.5);
+    -fx-background-radius: 0;
+}
+
+.profile__button--submit:hover{
+    -fx-background-color: #424242;
+    -fx-text-fill: white;
+}
+
+.combobox{
+    -fx-text-alignment: center;
+}
+
+.combobox .list-view .list-cell:hover {
+    -fx-background-color: #424242;
+    -fx-text-fill: white;
+}
+
+.combobox .cell:selected {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track, .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.jfx-button{
+    -fx-border-color: rgba(66,66,66,0.5);
+    -fx-border-radius: 1;
+}
+.jfx-button:hover{
+    -fx-background-color: #424242;
+    -fx-text-fill: white;
+}
+
+.input-line{
+    -fx-background-color: rgba(66,66,66,0.5);
+}
