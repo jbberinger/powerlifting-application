@@ -1,1 +1,1 @@
-Powerlifting application for converting lb to kg, bar loading, calculating wilks, and viewing current IPF records.
+Powerlifting application for converting lb to kg, barbell loading, calculating wilks, and viewing current IPF records.
