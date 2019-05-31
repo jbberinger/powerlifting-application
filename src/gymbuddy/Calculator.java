@@ -28,7 +28,6 @@ public class Calculator {
     }
 
     private void kilogramPlates() {
-        System.out.println("-----calculating kilogram plates from " + weightInKilograms + "kg-----");
         // subtract 20kg in barbell weight here until more customization is added
         double weightRemaining = 0;
         if(weightInKilograms >= 20){
@@ -49,11 +48,9 @@ public class Calculator {
                 kilogramPlatesToLoad[i] = 0;
             }
         }
-        System.out.println(Arrays.toString(kilogramPlatesToLoad));
     }
 
     private void poundPlates() {
-        System.out.println("-----calculating pound plates from " + weightInPounds + "lb-----");
         // subtract 45lb in barbell weight here until more customization is added
         double weightRemaining = 0;
         if (weightInPounds >= 45){
@@ -81,10 +78,8 @@ public class Calculator {
     }
 
     public void setKilogramPlatesToLoad(int[] newKilogramPlatesToLoad) {
-        //isWeightFromPlates = true;
         kilogramPlatesToLoad = newKilogramPlatesToLoad;
         weightInKilograms = weightInKilogramsFromPlates();
-        //isWeightFromPlates = false;
     }
 
     public int[] getPoundPlatesToLoad() {
@@ -93,10 +88,8 @@ public class Calculator {
     }
 
     public void setPoundPlatesToLoad(int[] newPoundPlatesToLoad) {
-        //isWeightFromPlates = true;
         poundPlatesToLoad = newPoundPlatesToLoad;
         weightInPounds = weightInPoundsFromPlates();
-        //isWeightFromPlates = false;
     }
 
     public double getWeightInKilograms() {
